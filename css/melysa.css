@@ -77,11 +77,11 @@ hr {
 
 .box-resume {
     display: flex;
-    padding-top: 49px;;
+    padding-top: 49px;
 }
 
 .box-resume > div {
-    width :100%;
+    width:100%;
 }
 
 .box-resume > div > p {
