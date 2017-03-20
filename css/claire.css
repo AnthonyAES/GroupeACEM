@@ -1,0 +1,27 @@
+#about{
+    position: relative;
+}
+
+#about>div:not(.content){
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#about>div:nth-child(2){
+    display: none;
+}
+
+#about>.content{
+    justify-content: flex-end;
+}
+
+#about-me{
+    width: 790px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+#about-me>div{
+    flex: 50%;
+}
