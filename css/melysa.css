@@ -77,13 +77,11 @@ hr {
 
 .box-resume {
     display: flex;
-    flex-direction: row;
     padding-top: 49px;
 }
 
 .box-resume > div {
-    width: 50%; 
-    padding-right: 70px;
+    width:100%;
 }
 
 .box-resume > div > p {
@@ -92,11 +90,12 @@ hr {
 }
 
 .box-resume > div > div > h4 {
-    padding-bottom: 21px;
+    padding-bottom: 20px;
 }
 
 .box-resume > div > div > p {
     padding-bottom: 20px;
+    text-align: justify;
 }
 
 .box-resume > div > div >p:nth-child(3) {
@@ -109,7 +108,20 @@ hr {
     margin-bottom: 30px;
 }
 
+.box-resume > div > div >p:nth-child(5) {
+    padding-top: 28px;
+    padding-bottom: 79px;
+}
 
+.box-resume > div:nth-child(1){
+    padding-right: 73px;
+}
+
+.content > quote {
+    font-size: 24pt;
+    color: #919191;
+    text-align: center;
+}
 
 
 

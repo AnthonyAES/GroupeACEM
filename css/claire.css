@@ -6,6 +6,8 @@
     position: absolute;
     top: 0px;
     left: 0px;
+    width: 610px;
+    height: 754px;
 }
 
 #about>div:nth-child(2){
