@@ -1,0 +1,65 @@
+#about{
+    position: relative;
+}
+
+#about>div:not(.content){
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 610px;
+    height: 754px;
+}
+
+#about>div:nth-child(2){
+    display: none;
+}
+
+#about>.content{
+    justify-content: flex-end;
+}
+
+#about-me{
+    width: 790px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+#about-me>div{
+    flex: 40%;
+    padding-left: 69.32px;
+    position: relative;
+}
+
+#about-me>div:nth-child(4):before{
+  content: "\f0ac";
+  font-family: "FontAwesome";
+    font-size: 44pt;
+    color: #2ecc71;
+    position: absolute;
+    left: 0;
+}
+#about-me>div:nth-child(5):before{
+  content: "\f040";
+  font-family: "FontAwesome";
+    font-size: 44pt;
+    color: #2ecc71;
+    position: absolute;
+    left: 0;
+}
+
+#about-me>div:nth-child(6):before{
+  content: "\f0c0";
+  font-family: "FontAwesome";
+    font-size: 44pt;
+    color: #2ecc71;
+    position: absolute;
+    left: 0;
+}
+#about-me>div:nth-child(7):before{
+  content: "\f0c6";
+  font-family: "FontAwesome";
+    font-size: 44pt;
+    color: #2ecc71;
+    position: absolute;
+    left: 0;
+}

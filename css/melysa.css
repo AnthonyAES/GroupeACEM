@@ -3,7 +3,6 @@ body {
     width: 100%;
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', sans-serif;
 }
 
 .content {
@@ -45,7 +44,7 @@ h4 {
 
 p {
     color: #919191;
-    font-size: 16pt;
+    font-size: 18pt;
     margin: 0;
     padding: 0;
 }
@@ -75,3 +74,44 @@ hr {
     background-color: #cccccc;
     border: none;
 }
+
+.box-resume {
+    display: flex;
+    flex-direction: row;
+    padding-top: 49px;
+}
+
+.box-resume > div {
+    width: 50%; 
+    padding-right: 70px;
+}
+
+.box-resume > div > p {
+    padding-bottom: 39px;
+    line-height: 22pt;
+}
+
+.box-resume > div > div > h4 {
+    padding-bottom: 21px;
+}
+
+.box-resume > div > div > p {
+    padding-bottom: 20px;
+}
+
+.box-resume > div > div >p:nth-child(3) {
+    color: white;
+    text-align: center;
+    padding: 10px 11px 10px 8px;
+    width: 71px;
+    height: 29px;
+    background-color: #2ecc71;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+
