@@ -201,6 +201,7 @@
     color: white;
     background-color: #2ecc71;
     border: 2px solid #2ecc71;
+    cursor: pointer;
 }
 
 /*---------------------------animation du texte--------------------------*/
