@@ -10,6 +10,7 @@
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
+    position: relative;
 }
 
 #titleh {
@@ -64,21 +65,29 @@ h2 {
     flex-flow: column wrap;
     justify-content: center;
     color: #ffffff;
+    position: absolute;
+    right: 210px;
+    bottom: 60px;
 }
 
 #slide > .dot {
     background-color: transparent;
     margin: 5px;
-    border: 1px solid #ffffff;
+    border: 2px solid #ffffff;
     height: 8px;
     width: 8px;
     border-radius: 8px;
+    cursor: pointer;
+}
+
+#slide > .dot:hover {
+    background-color: #ffffff;
 }
 
 #slide > .dot:nth-child(1) {
     background-color: #ffffff;
     margin: 5px;
-    border: 1px solid #ffffff;
+    border: 2px solid #ffffff;
 }
 
 /* ----------------- Nav ------------------ */
