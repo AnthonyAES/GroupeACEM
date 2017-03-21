@@ -184,10 +184,6 @@ textarea#message {
     padding:20px;
     width: 180px;
     background-color: #191f21;
-     box-shadow: inset 0 0 0 0 black;
-	-webkit-transition: all ease 0.8s;
-	-moz-transition: all ease 0.8s;
-	transition: all ease 0.8s;
 }
 
 #button:hover{
@@ -195,9 +191,7 @@ textarea#message {
     cursor: pointer;
 }
 
- #button:hover{
-      box-shadow: inset 0 100px 0 0 black;
-     color: #FFF;}
+
     
 /*********************footer*************************/
 
