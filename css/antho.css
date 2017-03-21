@@ -58,6 +58,29 @@ h2 {
     padding: 20px 37px;
 }
 
+/* ----------------- Dot Head ------------------ */
+#slide {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    color: #ffffff;
+}
+
+#slide > .dot {
+    background-color: transparent;
+    margin: 5px;
+    border: 1px solid #ffffff;
+    height: 8px;
+    width: 8px;
+    border-radius: 8px;
+}
+
+#slide > .dot:nth-child(1) {
+    background-color: #ffffff;
+    margin: 5px;
+    border: 1px solid #ffffff;
+}
+
 /* ----------------- Nav ------------------ */
 #b-nav {
     background-color: #252e30;
