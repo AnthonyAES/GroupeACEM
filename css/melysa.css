@@ -2,6 +2,11 @@
     position: relative
 }
 
+#resume > .content > h3 {
+    text-align: center;
+
+}
+
 #resume p {
     text-align: center;
     padding-bottom: 50px;
