@@ -4,10 +4,6 @@
     flex-direction: row;
 }
 
-.box-resume > div {
-    width:100%;
-}
-
 .box-resume > div > p {
     padding-bottom: 39px;
     text-align: justify;
@@ -75,13 +71,18 @@ article.b-white:nth-child(5) > div:nth-child(1) > h3:nth-child(4) {
 
 #slide-h > .dot:first-child {
     background-color: #2ecc71;
-    border: 1px solid #2ecc71;
+    border: 2px solid #2ecc71;
     margin-left: 9px;
 }
 
 
 #slide-h > .dot {
-    border: 1px solid #2ecc71;
+    border: 2px solid #2ecc71;
     margin-left: 9px;
     background-color: transparent;
+    cursor: pointer;
+}
+
+#slide-h > .dot:hover {
+    background-color: #2ecc71;
 }
