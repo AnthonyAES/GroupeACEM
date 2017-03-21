@@ -239,9 +239,14 @@
 }
 #lvl-4:hover p{
     transform: translateX(90%);
+<<<<<<< HEAD
     transition: all, ease-out, 2s;
+=======
+   transition: ease, 2s, in;
+>>>>>>> 2cd3212fcc8aafe32c9f4d570366805adbc66d73
     color: white;
     cursor: e-resize;
+   
 }
 
 
