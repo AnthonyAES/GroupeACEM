@@ -1,13 +1,5 @@
 
 
-
-
-
-
-
-
-/* partie elodie*/
-
 /* portfolio*/
 
  #portfolio .content{
@@ -30,13 +22,9 @@ padding-bottom: 100px;
 }
 
 
-.port {
-    width: 366px;
-    height: 300px;
-}
 
 div.port {
-    background-color: #252e30;
+background-color: #252e30;
    
 }
 
@@ -91,10 +79,20 @@ padding-top: 40px;
 
 }
 
+#portfolio > div > div:nth-child(3) {
+    cursor:auto;
+}
+
 
 .port:hover .cache{
 	display: block;
 }
+
+
+#portfolio a:hover{
+    color:white;
+}
+
 
 
 
@@ -117,6 +115,11 @@ padding-top: 40px;
 padding-bottom: 52px;
 padding-top: 98px;
 color: white;
+}
+
+#contact span {
+    color:white;
+    font-weight: bold;
 }
 
 #contact .content{
@@ -142,6 +145,11 @@ color: white;
     justify-content: center;
     align-content: center;
     
+}
+
+#adresse {
+    margin-top: 45px;
+    margin-bottom: 45px;
 }
 
 label {
@@ -170,21 +178,69 @@ textarea#message {
 }
 
 #button {
+    
+    color: white;
     padding:20px;
     width: 180px;
-    color: white;
     background-color: #191f21;
 }
 
 
-
+/*footer*/
 footer.b-black {
     height:175px;
-    background-color: #191f21;}
+    background-color: #191f21;
+
+}
+
 
 
 footer p{
     width: 100%;
+      
+}
+
+footer nav{
+    display: flex;
+  
+}
+
+footer .content {
+    text-align: center;
+    height: 175px;
+    align-content: space-around;
+}
+
+
+footer nav {
+    display: flex;
+    width: 100%;
+    padding-bottom;
     
 }
+
+footer p {
+    padding-top: 50px;
+    
+}
+
+footer nav ul{
+text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 0px;
+    
+}
+
+footer nav ul li {
+    display: block;
+    padding: 8px;
+}
+
+footer a:hover{
+    color:white;
+}
+
+
 
