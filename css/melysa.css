@@ -1,3 +1,7 @@
+#resume {
+    position: relative
+}
+
 #resume p {
     text-align: center;
     padding-bottom: 50px;
@@ -13,7 +17,16 @@
     cursor: pointer;
 }
 
-
+#resume:after {
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 20px 28.5px 0 28.5px;
+    border-color: #f2f2f1 transparent transparent transparent;
+}
 
 .box-resume {
     display: flex;
