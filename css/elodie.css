@@ -156,26 +156,34 @@ color: white;
 label {
     display: block;
     color: white;
-    padding-bottom: 16px;
+    padding-bottom: 10px;
 }
 
 
 input {
     display: block;
     background-color: #4b5456;
-    margin-bottom: 40px;
+    margin-bottom: 35px;
     width:100%;
     border:none;
     height: 55px;
+    color:white;
+    padding: 10px;
    
 }
 
+textarea {
+    color: white;
+    padding : 10px;
+}
+
+
 textarea#message {
-    height: 275px;
+    height: 220px;
     width: 100%;
     background-color: #4b5456;
     border: none;
-    margin-bottom: 40px;
+    margin-bottom: 35px;
 }
 
 #button {
