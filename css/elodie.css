@@ -185,6 +185,11 @@ textarea#message {
     background-color: #191f21;
 }
 
+#button:hover{
+    color:green;
+    cursor: pointer;
+}
+
 
 /*footer*/
 footer.b-black {
@@ -238,8 +243,9 @@ footer nav ul li {
     padding: 8px;
 }
 
-footer a:hover{
-    color:white;
+#button:hover {
+    color: #2ba25f;
+    
 }
 
 
