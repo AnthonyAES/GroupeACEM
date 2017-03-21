@@ -1,13 +1,5 @@
 
 
-
-
-
-
-
-
-/* partie elodie*/
-
 /* portfolio*/
 
  #portfolio .content{
@@ -125,6 +117,11 @@ padding-top: 98px;
 color: white;
 }
 
+#contact span {
+    color:white;
+    font-weight: bold;
+}
+
 #contact .content{
 
     align-content: space-between;
@@ -133,6 +130,7 @@ color: white;
 #contact p {
     font-size:18px;
     line-height: 34px;
+    padding-right: 50px;
 }
 
 #contact .content div{
@@ -148,6 +146,11 @@ color: white;
     justify-content: center;
     align-content: center;
     
+}
+
+#adresse {
+    margin-top: 45px;
+    margin-bottom: 45px;
 }
 
 label {
@@ -181,6 +184,11 @@ textarea#message {
     padding:20px;
     width: 180px;
     background-color: #191f21;
+}
+
+#button:hover{
+    color:green;
+    cursor: pointer;
 }
 
 
@@ -236,8 +244,24 @@ footer nav ul li {
     padding: 8px;
 }
 
-footer a:hover{
-    color:white;
+#button:hover {
+    color: #2ba25f;
+    
+}
+
+footer a:hover {
+    color: white;
+    
+}
+
+
+
+i
+{
+ background-color:  #4b5456;
+ border-radius: 100px;
+ padding:10px;
+color: #191f21;
 }
 
 

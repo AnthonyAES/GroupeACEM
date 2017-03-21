@@ -1,3 +1,7 @@
+#resume {
+    position: relative
+}
+
 #resume p {
     text-align: center;
     padding-bottom: 50px;
@@ -13,7 +17,19 @@
     cursor: pointer;
 }
 
+#resume:after {
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 20px 28.5px 0 28.5px;
+    border-color: #f2f2f1 transparent transparent transparent;
+    left: 50%;
+    margin-left: -28.5px;
 
+}
 
 .box-resume {
     display: flex;
@@ -88,7 +104,7 @@ article.b-white:nth-child(5) > div:nth-child(1) > h3:nth-child(4) {
 #slide-h > .dot:first-child {
     background-color: #2ecc71;
     border: 2px solid #2ecc71;
-    margin-left: 9px;
+    margin: 0;
 }
 
 
