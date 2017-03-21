@@ -49,7 +49,9 @@
     flex-flow: row wrap;
     box-sizing: border-box;
 }
-
+#about-me>p{
+    text-align: justify;
+}
 #about-me>div{
     flex: 40%;
     padding-left: 69.32px;
@@ -134,6 +136,7 @@
 }
 #skills>.content>div{
     width: 47%;
+    text-align: justify;
 }
 
 #skills>.content>div:nth-child(2){
