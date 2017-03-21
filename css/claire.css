@@ -208,7 +208,7 @@
 
 #lvl-1:hover p{
     transform: translateX(90%);
-    transition: all, ease-out, 2s;
+    transition: all, ease-out, 1s;
     color: white;
     cursor: e-resize;
 }
@@ -219,7 +219,7 @@
 
 #lvl-2:hover p{
     transform: translateX(90%);
-    transition: all, ease-out, 2s;
+    transition: all, ease-out, 1s;
     color: white;
     cursor: e-resize;
 }
@@ -229,7 +229,7 @@
 }
 #lvl-3:hover p{
     transform: translateX(92%);
-    transition: all, ease-out, 2s;
+    transition: all, ease-out, 1s;
     color: white;
     cursor: e-resize;
 }
@@ -239,11 +239,7 @@
 }
 #lvl-4:hover p{
     transform: translateX(90%);
-<<<<<<< HEAD
-    transition: all, ease-out, 2s;
-=======
-   transition: ease, 2s, in;
->>>>>>> 2cd3212fcc8aafe32c9f4d570366805adbc66d73
+    transition: all, ease-out, 1s;
     color: white;
     cursor: e-resize;
    
