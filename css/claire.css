@@ -226,9 +226,10 @@
 
 #lvl-4:hover p{
     transform: translateX(90%);
-    transition: ease, 2s, in;
+   transition: ease, 2s, in;
     color: white;
     cursor: e-resize;
+   
 }
 
 
