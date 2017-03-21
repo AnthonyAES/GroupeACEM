@@ -162,6 +162,7 @@
     height: 32px;
     background-color: #2ecc71;
     width: 90%;
+    overflow: hidden;
 }
 
 #lvl-2{
@@ -202,9 +203,10 @@
 
 
 #lvl-1:hover p{
-    transform: translateX(92%);
-    transition: ease, 2s, in;
     color: white;
+    cursor: e-resize;
+    transform: translateX(90%);
+    transition: ease, 2s, in;
 }
 
 
@@ -212,18 +214,21 @@
     transform: translateX(90%);
     transition: ease, 2s, in;
     color: white;
+    cursor: e-resize;
 }
 
 #lvl-3:hover p{
     transform: translateX(92%);
     transition: ease, 2s, in;
     color: white;
+    cursor: e-resize;
 }
 
 #lvl-4:hover p{
     transform: translateX(90%);
     transition: ease, 2s, in;
     color: white;
+    cursor: e-resize;
 }
 
 
