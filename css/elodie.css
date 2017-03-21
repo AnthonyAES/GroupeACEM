@@ -20,7 +20,6 @@ align-content: space-between;
 
 #portfolio h3{
 text-align: center; 
-padding-bottom: 52px;
     
 }
 
@@ -98,18 +97,31 @@ padding-top: 40px;
 }
 
 
-#contact{
+
+/* contact*/
+
+
+#contact {
     height: 905px;
+
 }
 
 .b-black {
-    background-color: #191f21;
+    background-color: #252e30;
+    height: 905px;
 }
+
+/*contact partie gauche*/
 
 #contact h3 {
 padding-bottom: 52px;
 padding-top: 98px;
 color: white;
+}
+
+#contact .content{
+
+    align-content: space-between;
 }
 
 #contact p {
@@ -135,13 +147,44 @@ color: white;
 label {
     display: block;
     color: white;
+    padding-bottom: 16px;
 }
 
 
 input {
     display: block;
+    background-color: #4b5456;
+    margin-bottom: 40px;
+    width:100%;
+    border:none;
+    height: 55px;
+   
 }
 
-form #submit{
-    background-color: 
+textarea#message {
+    height: 275px;
+    width: 100%;
+    background-color: #4b5456;
+    border: none;
+    margin-bottom: 40px;
 }
+
+#button {
+    padding:20px;
+    width: 180px;
+    color: white;
+    background-color: #191f21;
+}
+
+
+
+footer.b-black {
+    height:175px;
+    background-color: #191f21;}
+
+
+footer p{
+    width: 100%;
+    
+}
+
