@@ -82,6 +82,11 @@ h2 {
     padding: 0;
 }
 
+#b-nav > .content > nav > ul > li {
+    margin: 0;
+    padding: 0;
+}
+
 #b-nav > .content > nav > ul > li > a {
     text-transform: uppercase;
     color: #ffffff;
@@ -116,4 +121,20 @@ h2 {
     margin: auto 10px;
     position: relative;
     top: 14px;
+}
+
+/* ----------------- Article 1 ------------------ */
+
+#home > .content {
+    justify-content: space-between;
+}
+
+#home > .content > div {
+    width: 380px;
+    height: 100%;
+    padding: 10px;
+}
+
+#home p {
+    width: 100%;
 }
