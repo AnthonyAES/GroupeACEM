@@ -43,13 +43,6 @@ h4 {
     padding: 0;    
 }
 
-p {
-    color: #919191;
-    font-size: 16pt;
-    margin: 0;
-    padding: 0;
-}
-
 .dot {
     background-color: black;
     width: 10px;
@@ -74,4 +67,11 @@ hr {
     height: 1px;
     background-color: #cccccc;
     border: none;
+}
+
+p {
+    color: #919191;
+    font-size: 14pt;
+    margin: 0;
+    padding: 0;
 }
