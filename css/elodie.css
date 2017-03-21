@@ -130,6 +130,7 @@ color: white;
 #contact p {
     font-size:18px;
     line-height: 34px;
+    padding-right: 50px;
 }
 
 #contact .content div{
@@ -247,6 +248,12 @@ footer nav ul li {
     color: #2ba25f;
     
 }
+
+footer a:hover {
+    color: white;
+    
+}
+
 
 
 
