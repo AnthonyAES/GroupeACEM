@@ -29,7 +29,6 @@
     z-index: 10;
 }
 
-/*----------------------------transistion image------------------*/
 
 #about>div:nth-child(2):hover{
     opacity: 1;
@@ -169,18 +168,21 @@
     height: 32px;
     background-color: #2ecc71;
     width: 80%;
+    overflow: hidden;
 }
 
 #lvl-3{
     height: 32px;
     background-color: #2ecc71;
     width: 90%;
+    overflow: hidden;
 }
 
 #lvl-4{
     height: 32px;
     background-color: #2ecc71;
     width: 70%;
+    overflow: hidden;
 }
 
 
@@ -200,33 +202,44 @@
 
 /*---------------------------animation du texte--------------------------*/
 
-
-
-#lvl-1:hover p{
-    color: white;
-    cursor: e-resize;
-    transform: translateX(90%);
-    transition: ease, 2s, in;
+#lvl-1 p{
+    transition: all, ease, 20s;
 }
 
+#lvl-1:hover p{
+    transform: translateX(90%);
+    transition: all, ease-out, 2s;
+    color: white;
+    cursor: e-resize;
+}
+
+#lvl-2 p{
+    transition: all, ease, 20s;
+}
 
 #lvl-2:hover p{
     transform: translateX(90%);
-    transition: ease, 2s, in;
+    transition: all, ease-out, 2s;
     color: white;
     cursor: e-resize;
 }
 
+#lvl-3 p{
+    transition: all, ease, 20s;
+}
 #lvl-3:hover p{
     transform: translateX(92%);
-    transition: ease, 2s, in;
+    transition: all, ease-out, 2s;
     color: white;
     cursor: e-resize;
 }
 
+#lvl-4 p{
+    transition: all, ease, 20s;
+}
 #lvl-4:hover p{
     transform: translateX(90%);
-    transition: ease, 2s, in;
+    transition: all, ease-out, 2s;
     color: white;
     cursor: e-resize;
 }
