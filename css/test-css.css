@@ -13,8 +13,9 @@
     left: 0px;
     height: 100%;
     width: auto;
-    transition: 0.8s ease-in-out
+    transition: 0.8s ease-in-out;
 }
+
 #about>div:not(.content)>p{
     height: 100%;
     overflow: hidden;
@@ -29,6 +30,7 @@
     z-index: 10;
 }
 
+/*----------------------------transistion image------------------*/
 
 #about>div:nth-child(2):hover{
     opacity: 1;
@@ -49,9 +51,7 @@
     flex-flow: row wrap;
     box-sizing: border-box;
 }
-#about-me>p{
-    text-align: justify;
-}
+
 #about-me>div{
     flex: 40%;
     padding-left: 69.32px;
@@ -136,7 +136,6 @@
 }
 #skills>.content>div{
     width: 47%;
-    text-align: justify;
 }
 
 #skills>.content>div:nth-child(2){
@@ -171,21 +170,18 @@
     height: 32px;
     background-color: #2ecc71;
     width: 80%;
-    overflow: hidden;
 }
 
 #lvl3{
     height: 32px;
     background-color: #2ecc71;
     width: 90%;
-    overflow: hidden;
 }
 
 #lvl4{
     height: 32px;
     background-color: #2ecc71;
     width: 70%;
-    overflow: hidden;
 }
 
 
@@ -206,35 +202,34 @@
 /*---------------------------animation du texte--------------------------*/
 
 
+
 #lvl1.hovered p{
     transform: translateX(90%);
-    transition: all, ease-out, 1s;
+    transition: ease, 2s, in;
     color: white;
     cursor: e-resize;
 }
+ 
 
 #lvl2.hovered p{
     transform: translateX(90%);
-    transition: all, ease-out, 1s;
+    transition: ease, 2s, in;
     color: white;
     cursor: e-resize;
 }
-
 
 #lvl3.hovered p{
     transform: translateX(92%);
-    transition: all, ease-out, 1s;
+    transition: ease, 2s, in;
     color: white;
     cursor: e-resize;
 }
 
-
 #lvl4.hovered p{
     transform: translateX(90%);
-    transition: all, ease-out, 1s;
+    transition: ease, 2s, in;
     color: white;
     cursor: e-resize;
-   
 }
 
 
