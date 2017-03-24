@@ -2,8 +2,10 @@
 
 3ème Projet au sein du centre de formation OnlineFormaPro<br/><br/>
 
-![alt tag](maquettevsweb.png)
+![alt tag](Mockup.png)
 
+<h4>La maquette à intégrer:</h4>
+<img src="maquette.png"/>
 
 <h3>Exercice:</h3>
 <ol>
@@ -20,3 +22,6 @@
 <p>Le site n'est pas responsive car ce n'était pas le but de l'éxercice.</p>
 
 <p>Projet réalisé par: Claire Giacomel, Ponçon Elodie, Bojama Mélissa, Sautebin Anthony.<p>
+
+<h4>Résultat:</h4>
+<p>Code source ci dessus</p>
