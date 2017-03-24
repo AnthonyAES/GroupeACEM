@@ -25,7 +25,7 @@
 
 <p>Le site n'est pas responsive car ce n'était pas le but de l'éxercice.</p>
 
-<p>Projet réalisé par: <a href="http://clairegiacomel.com/">Claire Giacomel<a>, Ponçon Elodie, Bojama Mélissa, Sautebin Anthony.<p>
+<p>Projet réalisé par: <a href="http://clairegiacomel.com/" target="_blank">Claire Giacomel<a>, Ponçon Elodie, Bojama Mélissa, Sautebin Anthony.<p>
 
 <hr/>
 
