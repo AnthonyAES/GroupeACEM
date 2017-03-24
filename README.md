@@ -4,8 +4,12 @@
 
 ![alt tag](Mockup.png)
 
+<hr/>
+
 <h4>La maquette à intégrer:</h4>
 <img src="maquette.png"/>
+
+<hr/>
 
 <h3>Exercice:</h3>
 <ol>
@@ -22,6 +26,8 @@
 <p>Le site n'est pas responsive car ce n'était pas le but de l'éxercice.</p>
 
 <p>Projet réalisé par: Claire Giacomel, Ponçon Elodie, Bojama Mélissa, Sautebin Anthony.<p>
+
+<hr/>
 
 <h4>Résultat:</h4>
 <p>Code source ci dessus</p>
